@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+    /* flex-direction: row;
+    align-content:flex start;
+    flex-flow: row wrap; 
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap; */ 
+    
+
+    width: 900px;
+    height: 500px;
+    background-color: orange;
+    padding: 80px;
+}
+
+.caja{
+    width: 50%;
+    height: 60px;
+    background-color: #0a8bd0;
+    border: 2px solid white;
+}
+.order-1{
+    order: 1;
+}
